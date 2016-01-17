@@ -1,11 +1,13 @@
 # Site settings
-title: Trevor Summerfield
+title: Excess Enlightenment
 email: trevor@trevorsummerfield.com
 description: > # this means to ignore newlines until "baseurl:"
-  Trevor Summerfield's GitHub Pages Site
+  Things from Trevor Summerfield
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://tsums.github.io    " # the base hostname & protocol for your site
 github_username:  tsums
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 # Build settings
 markdown: kramdown
